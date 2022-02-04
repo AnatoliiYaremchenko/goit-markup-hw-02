@@ -1,8 +1,22 @@
 body {
-  color: #000;
+  background-color: #e5e5e5;
 }
 
 /* цвет текста белый #FFFFFF */
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* акцент */
+.page-header {
+  background-color: #ffffff;
+}
+.site-nav a :hover {
+}
+.page-promo {
+  background-color: #2f303a;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.page-footer {
+  background-color: #2f303a;
+}
