@@ -7,6 +7,7 @@
   --main-bg-color: #ffffff;
   --second-bg-color: #2f303a;
   --third-bg-color: #f5f4fa;
+  --logo-header-color: #000000;
   --filters-btn-color: #f5f4fa;
   --accent-color: #2196f3;
   --accent-order-color: #188ce8;
@@ -34,9 +35,9 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.38;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: var(--logo-header-color);
 }
 
 .logo-color,
@@ -46,8 +47,10 @@ button {
 .contacts .link:focus,
 .map-link:hover,
 .map-link:focus,
-.page-footer .link:hover,
-.page-footer .link:focus {
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
   color: var(--accent-color);
 }
 
@@ -134,10 +137,6 @@ button {
   background-color: var(--third-bg-color);
 }
 
-.page-footer .link {
-  color: var(--footer-link-color);
-}
-
 .footer-logo-color,
 .map-link,
 .filter:hover,
@@ -145,7 +144,25 @@ button {
   color: var(--third-text-color);
 }
 
+.map-link,
+.mail,
+.phone {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.mail,
+.phone {
+  color: var(--footer-link-color);
+}
+
 .filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   color: var(--second-text-color);
   background-color: var(--filters-btn-color);
 }
@@ -153,4 +170,18 @@ button {
 .filter:hover,
 .filter:focus {
   background-color: var(--accent-color);
+}
+
+.work-examples .section-header {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+}
+
+.work-examples .section-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
