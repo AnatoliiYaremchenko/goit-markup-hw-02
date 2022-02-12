@@ -41,6 +41,7 @@ button {
 }
 
 .logo-color,
+.site-nav .link.current,
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts .link:hover,
