@@ -61,7 +61,14 @@ button {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+}
+
+.site-nav .link {
   color: var(--second-text-color);
+}
+
+.contacts .link {
+  color: var(--main-text-color);
 }
 
 .hero,
